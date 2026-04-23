@@ -1,6 +1,3 @@
-								
-								
-								
 Name	Description	Type	Backup	Priority	Status	Conclusion	Monthly	Yearly
 Overall Buffer	10%	Buffer		essential	1		673.9	8086.8
 Overall Buffer	10%	Buffer		desirable	1		513.7	6164.4
@@ -33,8 +30,8 @@ ${PROFESSIONAL_LIABILITY_INSURANCE}	Haftpflichtversicherung	Insurance	none	essen
 ${HEALTH_INSURANCE}	Krankenversicherung	Insurance	none	essential	1		900	10800
 ${PENSION_PROVIDER}	Rentenversicherung	Insurance	none	essential	1		900	10800
 ${PRIVATE_LIABILITY_INSURANCE}	Privathaftpflichtversicherung	Insurance	none	essential	1		5	60
-https://safetywing.com/nomad-insurance	Travel insurance	Insurance	none	essential	1		40	200
-https://nomadlist.com/	Travel guide	Leisure	none	nice-to-have	1			150
+SafetyWing Nomad Insurance	Travel insurance	Insurance	none	essential	1		40	200
+Nomad List	Travel guide	Leisure	none	nice-to-have	1			150
 Economist		Leisure	none	deprecated	0	Did not read the content other than the daily overview of news	20	240
 iPhone	Assuming usage over 3y	Office Hardware	iCloud Backup	essential	1			300
 MacBook	Assuming usage over 3y	Office Hardware	none	essential	1			500
@@ -50,17 +47,17 @@ ${PASSWORD_MANAGER}		Office Services	Manual via Website	essential	1		4	48
 atext	text expander for macos	Office Services	via Google Takeout	essential	1		0	0
 Contexts	simpler & faster window switcher	Office Services	none	essential	1		10	0
 RH Timer		Office Services	none	essential	1		0	0
-mxschons Google Workspace		Office Services	Via google Takeout	essential	1		12	144
-mxschons Website		Office Services	Backup via Hosting provider	essential	1		6	72
+Google Workspace		Office Services	Via Google Takeout	essential	1		12	144
+Personal website hosting		Office Services	Backup via hosting provider	essential	1		6	72
 Phone Contract		Office Services	none	essential	1		20	240
-${SCAN_SERVICE}		Office Services	Via google Takeout	essential	1		20	240
+${SCAN_SERVICE}	Physical mail scanning	Office Services	Via Google Takeout	essential	1		20	240
 Dex Contact Management	from getdex.com	Office Services	Manual	essential	1		12	144
 Sunsama		Office Services	none	essential	0	not currently in use anymore	20	200
 ChatGPT		Office Services	none	essential	1		25	300
 Claude		Office Services	none	essential	1		25	300
 savvycal		Office Services	none	essential	1		10	120
-Mailbuttler	Email tracking on Apple Mail	Office Services	none	nice-to-have	1			50
-Other Domain Management ${DOMAIN_REGISTRAR}		Office Services	Backup via Hosting provider	nice-to-have	1		10	120
+Mailbutler	Email tracking on Apple Mail	Office Services	none	nice-to-have	1			50
+${DOMAIN_REGISTRAR}		Office Services	Backup via hosting provider	nice-to-have	1		10	120
 Reclaim.ai		Office Services	none	nice-to-have	1		10	100
 Rent		Rent	none	essential	1		1500	18000
 Rent		Rent	none	desirable	1		1000	12000
@@ -77,20 +74,20 @@ Financial Times		Self-Actualizing	none	essential	1		60	720
 AAAS Science Magazine		Self-Actualizing	none	essential	1		10	120
 Travel comfort budget		Travel	none	desirable	1		500	6000
 Travel budget	Public transport, 1xlong-distance, taxis	Travel	none	essential	1		250	3000
-Grammarly		Work	none	nice-to-have	0			
+Grammarly		Work	none	nice-to-have	0
 Leisure Activities		Leisure	none	essential	1		750	9000
 Leisure Activities		Leisure	none	desirable	1		750	9000
 Leisure Activities		Leisure	none	nice-to-have	1		750	9000
-60L Backpack for all belongings		Belongings						
-15L daypack		Belongings						
-Two packing cubes		Belongings						
-2 Long, 2 short trousers		Belongings						
-set of 8 black t-shirts, boxers, and socks with merino wool		Belongings						
-insta360x4		Belongings						
-dji mini4 pro drone		Belongings						
-miscellaneous electronic gadgets such as travel adapter, usb-c cabels etc		Belongings						
-ipad mini		Belongings						
-apple watch 7		Belongings						
-airpods		Belongings						
-multiple harddrives		Belongings						
-${HARDWARE_WALLET}		Belongings						
+60L Backpack for all belongings		Belongings
+15L daypack		Belongings
+Two packing cubes		Belongings
+2 long, 2 short trousers		Belongings
+Set of 8 black t-shirts, boxers, and socks with merino wool		Belongings
+insta360x4		Belongings
+dji mini4 pro drone		Belongings
+Miscellaneous electronic gadgets (travel adapters, USB-C cables, etc.)		Belongings
+iPad mini		Belongings
+Apple Watch 7		Belongings
+AirPods		Belongings
+Multiple hard drives		Belongings
+${HARDWARE_WALLET}		Belongings

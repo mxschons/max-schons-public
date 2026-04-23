@@ -29,6 +29,10 @@ When content overlaps, use reader intent:
 - **RSS/Atom:** https://github.com/mxschons/max-schons-public/commits/main/CHANGELOG.md.atom
 - **Email:** _follow.it link pending._
 
+## Private values
+
+Some content (e.g. specific banks, insurers, service providers) is abstracted as `${VARNAME}` tokens. The real values live in a local `.env` file (gitignored) matching [`.env.example`](.env.example). Public visitors see the tokens as-is; local AI workflows can resolve them by reading `.env`.
+
 ## License
 
 CC0 1.0 — public domain. See [LICENSE](LICENSE). Use anything here without asking.

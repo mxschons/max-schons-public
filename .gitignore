@@ -13,3 +13,6 @@ _tsv_pages/
 # Editor
 .vscode/
 .idea/
+
+# Local private values substituted by AI workflows (see .env.example)
+.env
