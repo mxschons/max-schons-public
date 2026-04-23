@@ -1,6 +1,5 @@
 ---
 layout: home
-title: Max Schons
 ---
 
 <script type="application/ld+json">
@@ -15,6 +14,8 @@ title: Max Schons
   ]
 }
 </script>
+
+<p style="display:inline-block;padding:0.2em 0.6em;border-radius:999px;background:#fff4c2;border:1px solid #e6c948;font-size:0.85em;font-weight:600;transform:rotate(-2deg);margin-bottom:1em;">🚧 Work in progress · expect rough edges</p>
 
 Things worth sharing. The repo backing this site is at [github.com/mxschons/max-schons-public](https://github.com/mxschons/max-schons-public). Everything here is CC0 — use freely.
 

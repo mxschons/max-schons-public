@@ -1,5 +1,12 @@
 title: Max Schons
 description: Things worth sharing
+author:
+  name: ""
+  email: ""
+
+show_excerpts: false
+minima:
+  social_links: []
 theme: minima
 markdown: kramdown
 permalink: /:path/:basename
