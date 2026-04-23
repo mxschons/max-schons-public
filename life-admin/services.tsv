@@ -1,10 +1,4 @@
 Name	Description	Type	Backup	Priority	Status	Conclusion	Monthly	Yearly
-Buying Groceries, Meal plan service / Huel	30€ / day	Consumables	none	essential	1		900	10800
-Hygiene Products		Consumables	none	essential	1		15	200
-Eating out	twice a week for 25€	Consumables	none	essential	1		200	2400
-Upwork Personal Assistant		Contractors	none	desirable	1		400	4800
-Miscellaneous contractors		Contractors	none	desirable	1		75	900
-Cleaning Service	every other week, mostly covered by staying in hotels	Contractors	none	essential	1		100	1200
 Remote MacMini Hetzner	sensitive work for PAs	Contractors	none	nice-to-have	0	Not worth unless you have people doing a lot of sensitive work for you	65	780
 Signal Messenger		Donations	none	desirable	1		5	60
 ${BANK_DEPRECATED}		Finance	bank statements manually	desirable	0	Not used anymore	0	60
@@ -15,8 +9,6 @@ ${HARDWARE_WALLET}	free tier	Finance	PrivateKey backup	essential	1		0	0
 ${BANK_INTERNATIONAL}		Finance	none	nice-to-have	0		0	0
 Peter Attia Podcast		Self-Actualizing	none	essential	1		14	168
 AppleHealth Tracking		Health	Manual	essential	1		0	0
-Gym	various	Health	none	essential	1		100	1000
-Supplements (Protein, Vitamin D, etc)		Health	none	none	1		25	300
 Huberman Podcast		Health	none	deprecated	0		10	120
 Aktiia		Health	none	deprecated	0		10	120
 ${PROFESSIONAL_LIABILITY_INSURANCE}	Haftpflichtversicherung	Insurance	none	essential	1		7	84
@@ -50,8 +42,6 @@ savvycal		Office Services	none	essential	1		10	120
 Mailbutler	Email tracking on Apple Mail	Office Services	none	nice-to-have	1			50
 ${DOMAIN_REGISTRAR}		Office Services	Backup via hosting provider	nice-to-have	1		10	120
 Reclaim.ai		Office Services	none	nice-to-have	1		10	100
-Coaching / Therapy		Self-Actualizing	none	desirable	1		300	3000
-Other forms of coaching	e.g. personal trainer	Self-Actualizing	none	desirable	1		100	1200
 Anki		Self-Actualizing	Backup via Google Takeout	essential	1		0	0
 Feedly		Self-Actualizing	none	essential	1			100
 Audible		Self-Actualizing	none	essential	1		10	120
