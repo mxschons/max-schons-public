@@ -1,3 +1,5 @@
+---
+---
 # How do I organize knowledge management in Anki? (2023-06)
 
 **What goes in?** Anything I think is worth remembering. Commonly: life lessons, nice things people said about me, things I need to learn.

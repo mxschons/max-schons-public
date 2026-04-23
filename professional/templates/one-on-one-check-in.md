@@ -1,3 +1,5 @@
+---
+---
 # One-on-one check-in template (2023-04)
 
 A check-in template I use in 1-1s with people I manage.

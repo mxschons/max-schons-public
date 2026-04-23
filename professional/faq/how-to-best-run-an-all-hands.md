@@ -1,3 +1,5 @@
+---
+---
 # How do I think about running a great all-hands? (2023-05)
 
 An all-hands should serve four core functions. Independent of content, all-hands ought to be interesting, digestible, entertaining / propulsive.

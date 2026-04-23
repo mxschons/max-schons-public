@@ -1,3 +1,5 @@
+---
+---
 # How do I organize my contacts? (2022-12)
 
 I use [Dex](https://getdex.com/) as my contact management tool. Not perfect, but the best I've found.

@@ -1,3 +1,5 @@
+---
+---
 # What is the value proposition of co-working? (2022-07)
 
 - **Taking breaks instead of working for hours in a row.** Co-working built my habit of actually taking breaks. A break is not turning off your head and going into social-media mode — it's stepping back from work, letting your brain into free association, adding movement / exercise, and noticing needs like water, rest, hygiene.

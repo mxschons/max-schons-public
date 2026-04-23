@@ -1,3 +1,5 @@
+---
+---
 # Default all-hands agenda
 
 Covers all four core functions (see [how to best run an all-hands](/professional/faq/how-to-best-run-an-all-hands/)). An all-hands can also be weighted toward one of the four. Aim for max 50 min; ideal 45 min so people can recover.

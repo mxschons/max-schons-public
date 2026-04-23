@@ -1,3 +1,5 @@
+---
+---
 # Preferences
 
 How I like things done operationally — accommodation and food. Personal to me; adapt to your own life.

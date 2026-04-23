@@ -1,3 +1,5 @@
+---
+---
 # Most likely causes of death / disability for a ~30y old male (2021-10)
 
 Based on the [Global Disease Burden Project](https://www.healthdata.org/gbd).

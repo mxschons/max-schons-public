@@ -1,3 +1,5 @@
+---
+---
 # Weekly self-review checklist
 
 A weekly orientation pass I run on my own work and team.

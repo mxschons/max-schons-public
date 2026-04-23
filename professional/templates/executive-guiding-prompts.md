@@ -1,3 +1,5 @@
+---
+---
 # Guiding prompts for executives (2023-04)
 
 Three prompts I use to open meetings with senior leadership.

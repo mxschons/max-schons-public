@@ -1,3 +1,5 @@
+---
+---
 # Recurring meeting minutes template (2023-04)
 
 One document per recurring meeting, filled out per session.

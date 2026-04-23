@@ -11,6 +11,12 @@ theme: minima
 markdown: kramdown
 permalink: /:path/:basename
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+
 exclude:
   - README.md
   - CHANGELOG.md

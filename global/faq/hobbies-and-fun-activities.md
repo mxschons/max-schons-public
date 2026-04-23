@@ -1,3 +1,5 @@
+---
+---
 # What are my hobbies and fun activities?
 
 - **Building useful physical things** — lightweight storage for tech items, complex coordination projects.

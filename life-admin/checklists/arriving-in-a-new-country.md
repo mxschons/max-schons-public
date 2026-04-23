@@ -1,3 +1,5 @@
+---
+---
 # New-country checklist
 
 Use when arriving in a country I haven't recently been to.
