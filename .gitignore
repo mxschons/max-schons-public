@@ -1,0 +1,15 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+Gemfile.lock
+_tsv_pages/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
