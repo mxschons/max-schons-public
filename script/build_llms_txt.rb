@@ -6,6 +6,7 @@
 # Run AFTER `jekyll build`.
 
 require "fileutils"
+require "shellwords"
 Encoding.default_external = Encoding::UTF_8
 Encoding.default_internal = Encoding::UTF_8
 
