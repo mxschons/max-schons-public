@@ -46,6 +46,14 @@ On the live site:
 
 These are generated at build time from the source files; they don't exist in the repo.
 
+### For LLMs and AI crawlers
+
+- **Raw markdown** is served at every permalink — append `.md` to any URL to get the source file as `text/markdown`.
+- **[`/llms.txt`](https://mxschons.github.io/max-schons-public/llms.txt)** — short index following the [llmstxt.org](https://llmstxt.org) convention, with last-modified dates from git.
+- **[`/llms-full.txt`](https://mxschons.github.io/max-schons-public/llms-full.txt)** — the full corpus concatenated, with source URLs per section.
+- **FAQPage JSON-LD** is embedded on the aggregated FAQ pages.
+- **[`robots.txt`](robots.txt)** explicitly allows major AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Applebot-Extended, etc.). The content is CC0; training is welcome.
+
 ## Subscribe
 
 - **RSS / Atom:** https://github.com/mxschons/max-schons-public/commits/main/CHANGELOG.md.atom — every commit that touches [`CHANGELOG.md`](CHANGELOG.md) becomes a feed entry.

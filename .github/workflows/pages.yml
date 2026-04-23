@@ -19,6 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # full history for jekyll-last-modified-at + build_llms_txt.rb
 
       - uses: ruby/setup-ruby@v1
         with:
@@ -38,6 +40,12 @@ jobs:
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
+
+      - name: Copy raw markdown into _site
+        run: ruby script/copy_raw_markdown.rb
+
+      - name: Build llms.txt and llms-full.txt
+        run: ruby script/build_llms_txt.rb
 
       - uses: actions/configure-pages@v5
 

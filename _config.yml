@@ -12,8 +12,12 @@ exclude:
   - docs/
   - "*.tsv"
 
+url: "https://mxschons.github.io/max-schons-public"
+
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-last-modified-at
 
 include:
   - _tsv_pages

@@ -6,8 +6,11 @@
 # Outputs:
 #   _faq_pages/all.md            → permalink /faq/              (everything grouped by area)
 #   _faq_pages/<area>.md         → permalink /<area>/faq/       (one area's FAQs)
+#
+# Each aggregate page also embeds FAQPage JSON-LD for search / AI crawlers.
 
 require "fileutils"
+require "json"
 Encoding.default_external = Encoding::UTF_8
 Encoding.default_internal = Encoding::UTF_8
 
@@ -38,8 +41,39 @@ def area_title(area)
   area.split("-").map(&:capitalize).join(" ")
 end
 
+def faq_jsonld(entries)
+  # entries: [{ question:, answer_text: }, ...]
+  jsonld = {
+    "@context" => "https://schema.org",
+    "@type" => "FAQPage",
+    "mainEntity" => entries.map do |e|
+      {
+        "@type" => "Question",
+        "name" => e[:question],
+        "acceptedAnswer" => {
+          "@type" => "Answer",
+          "text" => e[:answer_text]
+        }
+      }
+    end
+  }
+  "<script type=\"application/ld+json\">\n#{JSON.pretty_generate(jsonld)}\n</script>"
+end
+
+def plain_answer(body)
+  # Strip markdown formatting for JSON-LD answer text. Keep it simple:
+  # drop image refs, collapse whitespace, limit length.
+  text = body.gsub(/!\[[^\]]*\]\([^)]*\)/, "") # images
+             .gsub(/\[([^\]]+)\]\([^)]*\)/, '\1') # links → text
+             .gsub(/[`*_>#]/, "")
+             .gsub(/\s+/, " ")
+             .strip
+  text.length > 1500 ? text[0, 1497] + "..." : text
+end
+
 # Per-area aggregate pages.
 faqs_by_area.each do |area, paths|
+  entries = []
   out = File.join(OUTPUT_DIR, "#{area}.md")
   File.open(out, "w") do |f|
     f.puts "---"
@@ -52,15 +86,19 @@ faqs_by_area.each do |area, paths|
     f.puts
     paths.each do |p|
       title, body = read_body(p)
+      entries << { question: title, answer_text: plain_answer(body) }
       f.puts "## #{title}"
       f.puts
       f.puts body
       f.puts
     end
+    f.puts
+    f.puts faq_jsonld(entries)
   end
 end
 
 # Global aggregate page.
+all_entries = []
 out = File.join(OUTPUT_DIR, "all.md")
 File.open(out, "w") do |f|
   f.puts "---"
@@ -76,13 +114,16 @@ File.open(out, "w") do |f|
     f.puts
     faqs_by_area[area].each do |p|
       title, body = read_body(p)
+      all_entries << { question: title, answer_text: plain_answer(body) }
       f.puts "## #{title}"
       f.puts
       f.puts body
       f.puts
     end
   end
+  f.puts
+  f.puts faq_jsonld(all_entries)
 end
 
 total = faqs_by_area.values.map(&:length).sum
-puts "Rendered #{faqs_by_area.size} per-area FAQ page(s) + 1 global aggregate (#{total} entries)."
+puts "Rendered #{faqs_by_area.size} per-area FAQ page(s) + 1 global aggregate (#{total} entries) with FAQPage JSON-LD."

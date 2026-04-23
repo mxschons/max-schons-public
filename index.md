@@ -3,6 +3,19 @@ layout: home
 title: Max Schons
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Max Schons",
+  "url": "https://mxschons.github.io/max-schons-public/",
+  "sameAs": [
+    "https://github.com/mxschons",
+    "https://www.linkedin.com/in/mxschons/"
+  ]
+}
+</script>
+
 Things worth sharing. The repo backing this site is at [github.com/mxschons/max-schons-public](https://github.com/mxschons/max-schons-public). Everything here is CC0 — use freely.
 
 ## Browse by life area
