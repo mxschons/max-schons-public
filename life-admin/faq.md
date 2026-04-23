@@ -43,7 +43,7 @@ TLDR:
 - Repetitive tasks taking more than 30 min (e.g. merging contacts across systems).
 - Iterative research, especially life-admin topics.
 
-A nice side effect: you have to articulate what you actually want. For example, I don't yet have a great description of what matters to me in accommodations, so my PA can't make strong decisions there. As my [life-admin manual](manual.md) expands, my PA gets more useful.
+A nice side effect: you have to articulate what you actually want. For example, having written down [my preferences](preferences.md) for accommodations, food, and travel, my PA can make better decisions on my behalf. The more articulated my preferences get, the more useful my PA becomes.
 
 ## Finance procedures I find valuable (2023-06)
 
