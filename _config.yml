@@ -23,3 +23,13 @@ plugins:
 include:
   - _tsv_pages
   - _faq_pages
+  - _area_pages
+
+header_pages:
+  - _area_pages/global.md
+  - _area_pages/life-admin.md
+  - _area_pages/social.md
+  - _area_pages/travel.md
+  - _area_pages/self-care.md
+  - _area_pages/professional.md
+  - _faq_pages/all.md

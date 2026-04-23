@@ -36,6 +36,9 @@ jobs:
       - name: Build FAQ aggregate
         run: ruby script/build_faq_aggregate.rb
 
+      - name: Build area indexes
+        run: ruby script/build_area_indexes.rb
+
       - name: Build Jekyll site
         run: bundle exec jekyll build
         env:

@@ -20,16 +20,16 @@ Things worth sharing. The repo backing this site is at [github.com/mxschons/max-
 
 ## Browse by life area
 
-- **[global](/global/)** — cross-domain and identity-level content
-- **[life-admin](/life-admin/)** — services, logistics, life infrastructure
-- **[social](/social/)** — people and relationships
-- **[travel](/travel/)** — places
-- **[self-care](/self-care/)** — practices and routines
-- **[professional](/professional/)** — work, career, projects
+- **[global]({{ '/global/' | relative_url }})** — cross-domain and identity-level content
+- **[life-admin]({{ '/life-admin/' | relative_url }})** — services, logistics, life infrastructure
+- **[social]({{ '/social/' | relative_url }})** — people and relationships
+- **[travel]({{ '/travel/' | relative_url }})** — places
+- **[self-care]({{ '/self-care/' | relative_url }})** — practices and routines
+- **[professional]({{ '/professional/' | relative_url }})** — work, career, projects
 
 ## Browse by type
 
-- **[All FAQs](/faq/)** — every question I've written down, grouped by area
+- **[All FAQs]({{ '/faq/' | relative_url }})** — every question I've written down, grouped by area
 - **Checklists, templates, preferences** — browse within each life area
 
 ## Subscribe
