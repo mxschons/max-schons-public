@@ -1,6 +1,6 @@
 # Finance procedures I find valuable (2023-06)
 
-Current monthly / yearly thresholds by tier are in [budget.tsv](../budget.tsv).
+Current monthly / yearly thresholds by tier are in [budget.tsv](/life-admin/budget/).
 
 ## Ops
 

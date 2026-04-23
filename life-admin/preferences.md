@@ -2,7 +2,7 @@
 
 How I like things done operationally — accommodation and food. Personal to me; adapt to your own life.
 
-See also: [travel preferences](../travel/preferences.md), [hobbies](../global/faq/hobbies-and-fun-activities.md).
+See also: [travel preferences](/travel/preferences/), [hobbies](/global/faq/hobbies-and-fun-activities/).
 
 ---
 

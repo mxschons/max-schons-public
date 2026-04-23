@@ -9,4 +9,4 @@ An all-hands should serve four core functions. Independent of content, all-hands
 | **Sense of purpose** | …with refreshed excitement about the mission; feels the relevance of achievements and takes pride in how their and colleagues' work contributes. | Celebrate exceptional work outputs publicly (win of the week). Explicitly connect work outputs to mission. Collaborate and co-create something (redteaming session, live polling) so people feel they have a say. |
 | **Connection** | …feeling more part of a group they care about. | Breakout rooms for synchronous peer conversation. Pull up something personal (music, picture) before joining. Shout-out appreciations. |
 
-A default agenda that covers all four functions is in [templates/default-all-hands-agenda.md](../templates/default-all-hands-agenda.md).
+A default agenda that covers all four functions is in [templates/default-all-hands-agenda](/professional/templates/default-all-hands-agenda/).

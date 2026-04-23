@@ -25,8 +25,14 @@ jobs:
           ruby-version: "3.2"
           bundler-cache: true
 
+      - name: Lint ${VARNAME} tokens
+        run: ruby script/lint_tokens.rb
+
       - name: Render TSVs
         run: ruby script/render_tsvs.rb
+
+      - name: Build FAQ aggregate
+        run: ruby script/build_faq_aggregate.rb
 
       - name: Build Jekyll site
         run: bundle exec jekyll build

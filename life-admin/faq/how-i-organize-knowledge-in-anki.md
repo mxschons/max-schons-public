@@ -6,7 +6,7 @@
 
 My card template (`Cloze-26e81`) has these fields:
 
-![Anki card type with fields: Text, Extra, Source, Search terms, Implementation](../images/anki-card-template.png)
+![Anki card type with fields: Text, Extra, Source, Search terms, Implementation](/life-admin/images/anki-card-template.png)
 
 **Do you also keep knowledge in Roam?**
 

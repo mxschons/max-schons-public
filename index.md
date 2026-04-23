@@ -5,14 +5,19 @@ title: Max Schons
 
 Things worth sharing. The repo backing this site is at [github.com/mxschons/max-schons-public](https://github.com/mxschons/max-schons-public). Everything here is CC0 — use freely.
 
-## Browse
+## Browse by life area
 
-- **global** — cross-domain and identity-level content
-- **life-admin** — services, logistics, life infrastructure
-- **social** — people and relationships
-- **travel** — places I've been and recommend
-- **self-care** — practices and routines
-- **professional** — work, career, projects
+- **[global](/global/)** — cross-domain and identity-level content
+- **[life-admin](/life-admin/)** — services, logistics, life infrastructure
+- **[social](/social/)** — people and relationships
+- **[travel](/travel/)** — places
+- **[self-care](/self-care/)** — practices and routines
+- **[professional](/professional/)** — work, career, projects
+
+## Browse by type
+
+- **[All FAQs](/faq/)** — every question I've written down, grouped by area
+- **Checklists, templates, preferences** — browse within each life area
 
 ## Subscribe
 

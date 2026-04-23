@@ -6,6 +6,7 @@ _site/
 vendor/
 Gemfile.lock
 _tsv_pages/
+_faq_pages/
 
 # macOS
 .DS_Store

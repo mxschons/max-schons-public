@@ -18,4 +18,4 @@ I imported ~850 contacts, cleaned them up, and sorted them into groups / contact
 
 Below are the groups I set up to help navigate. *Caveat:* I don't actually use these groups much in practice.
 
-![Dex contact groups](../images/dex-contact-groups.png)
+![Dex contact groups](/life-admin/images/dex-contact-groups.png)

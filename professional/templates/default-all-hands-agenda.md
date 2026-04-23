@@ -1,6 +1,6 @@
 # Default all-hands agenda
 
-Covers all four core functions (see [how-to-best-run-an-all-hands](../faq/how-to-best-run-an-all-hands.md)). An all-hands can also be weighted toward one of the four. Aim for max 50 min; ideal 45 min so people can recover.
+Covers all four core functions (see [how to best run an all-hands](/professional/faq/how-to-best-run-an-all-hands/)). An all-hands can also be weighted toward one of the four. Aim for max 50 min; ideal 45 min so people can recover.
 
 ## Clarity & alignment — 10 min
 
