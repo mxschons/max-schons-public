@@ -12,7 +12,8 @@ exclude:
   - docs/
   - "*.tsv"
 
-url: "https://mxschons.github.io/max-schons-public"
+url: "https://mxschons.github.io"
+baseurl: "/max-schons-public"
 
 plugins:
   - jekyll-seo-tag
