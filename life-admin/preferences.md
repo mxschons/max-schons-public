@@ -1,6 +1,8 @@
 # Preferences
 
-How I like things when someone is helping me with logistics — accommodation, travel, food. Personal to me; adapt to your own life.
+How I like things done operationally — accommodation and food. Personal to me; adapt to your own life.
+
+See also: [travel preferences](../travel/preferences.md), [hobbies](../global/faq/hobbies-and-fun-activities.md).
 
 ---
 
@@ -71,67 +73,6 @@ How I like things when someone is helping me with logistics — accommodation, t
 
 - ~10 hangers around.
 
-## Travel
-
-### Things to do before travelling somewhere
-
-- Get a [Nomad List](https://nomadlist.com/) summary of the place.
-- Sanity-check the [German Foreign Ministry website](https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/reise-und-sicherheitshinweise) for special regulations.
-
-### New-country checklist
-
-- Check the foreign-ministry situation assessment immediately.
-- Install an eSIM.
-- Get travel insurance.
-- Check passport validity.
-- Check additional vaccinations.
-- Check weather forecast.
-- Ensure I know how to access my emergency documents.
-- Familiarise myself with local emergency numbers.
-
-### New-in-a-city checklist
-
-**Food:**
-- Order [Huel](https://de.huel.com/) or Soylent to the place.
-  - ~1 month: Huel Black Edition in Vanilla and Cookie & Cream.
-  - < 1 month: mix Ready-to-Drink, 1 set / 10 days.
-- Have a list of 5 great vegan restaurants nearby to check out.
-- Get a list of 5 great vegan delivery services.
-
-**Exercise:**
-- Identify a gym within < 5 min walk.
-- Know where the closest sauna is.
-- Know where the closest bouldering hall is.
-
-**Work:**
-- Have a list of co-working spaces with phone booths; check for standing desks, ideally walking pads.
-
-**Social:**
-- Check local effective-altruism events.
-- Get a list of really cool TripAdvisor activities.
-
-**On arrival, get:**
-- Nuts.
-- Gum.
-- Pepper spray.
-- Sunscreen.
-- Find a gym.
-- Maybe flowers.
-
-### Travel preferences
-
-I usually schedule travel myself but occasionally ask for support. Preferences:
-
-- I'd rather pay a bit more / travel a bit longer for simplicity of itinerary.
-- **Trains:**
-  - Always the best connection, irrespective of price.
-  - Second class preferred; first class is fine if second is full.
-  - Fewest transfers. If it takes up to 20% longer but avoids switching (so I can keep focused work going), prefer the longer direct route.
-- **Flights:**
-  - I usually schedule flights myself.
-  - Check in with me before booking anything other than economy.
-  - Non-stop or 1-stop strongly preferred; depending on price craziness, ask me before booking non-stop.
-
 ## Food plan
 
 If I prepare food for myself, this is roughly what it looks like.
@@ -193,20 +134,3 @@ Dark chocolate or nut butter.
 Protein powder + fruit + nut milk.
 
 Good food-plan subscription services that send ingredients approximating the above are awesome.
-
-## Hobbies and fun activities
-
-- **Building useful physical things** — lightweight storage for tech items, complex coordination projects.
-- **Physical play** — trampoline, gymnastics, bouldering.
-- **Fast / impressive things** — race car.
-- **Creating music and rhythms** — learning music production, potentially solo singing, choir.
-- **Physically hard / challenging things with a low risk of injury.**
-- **Finding and being in wonderful places** — bright light, impressive nature.
-- **Intensive and immersive learning experiences** — monastery-style retreats.
-- **Fun things with friends.**
-
-## Quarterly routines
-
-- Back up all data.
-- Hygiene: change toothbrush head; change shaver head.
-- Plan ahead for the next quarter.
