@@ -1,0 +1,19 @@
+title: Max Schons
+description: Things worth sharing
+theme: minima
+markdown: kramdown
+permalink: /:path/:basename
+
+exclude:
+  - README.md
+  - CHANGELOG.md
+  - Gemfile
+  - Gemfile.lock
+  - docs/
+  - "*.tsv"
+
+plugins:
+  - jekyll-seo-tag
+
+include:
+  - _tsv_pages
